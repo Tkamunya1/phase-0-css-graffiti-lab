@@ -1,1 +1,18 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  #tag-3 .slick wicked{
+    display: none;
+  }
+  .parent #tag-4{
+      display: none;
+  }
+  .parent #tag-5{
+  position: relative;
+    top: 10;
+  left: 20;
+  width: 980px;
+  height: 622px;
+  }

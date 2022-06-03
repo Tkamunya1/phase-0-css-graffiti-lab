@@ -2,17 +2,30 @@
 #wall .tag-1 {
     display: none;
   }
-  
-  #tag-3 .slick wicked{
+  .tag-1{
+    width: auto;
     display: none;
-  }
-  .parent #tag-4{
-      display: none;
-  }
-  .parent #tag-5{
-  position: relative;
-    top: 10;
-  left: 20;
-  width: 980px;
-  height: 622px;
-  }
+}
+.parent{
+  width: auto;
+  display: none;
+}
+
+#wall{
+    width: auto;
+    display: none;
+}
+.tag-3{
+    width: auto;
+    display: none;
+}
+.tag-2{
+  width: auto;
+  display: none;
+}
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+body div#wall div.parent div:first-child > div#tag-7.slick {
+    display: none;
+} 
